@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=RCjn81k6Tpm5vS6EwFT28lERaipCD9MhFJdyLCWkovrYSZrY3MScra1BwcDHPtk3E4kovugGK_quMaieas9ebykG8Vb3rvUVEJ_2b88kwJXla5TIMik4M1NjAU2qChjmsWz-cQTY5abxNpNs4TTGydvraFFFNBCi9R9NNSn1iWP4cQdsNxIRLJ-XG3kstqds" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9pZGUtNDUzMThlNmQxOGY3NDY3ZTg0YTI0ZDcyZmJiODRjNDEuaWRlLmNzNTAuaW8vdmZzLzIvZW52aXJvbm1lbnQvcHNldDgvaG9tZXBhZ2UvaW5kZXguaHRtbD9tZXRhZGF0YT10cnVl"/><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        
+        <script>
+        function relocate_pf()
+        {
+             location.href = "https://www.pinkfloyd.com/";
+        }
+        
+        function relocate_lz()
+        {
+             location.href = "https://merch.ledzeppelin.com/";
+        } 
+        
+        function relocate_ds()
+        {
+             location.href = "https://www.direstraits.com/";
+        } 
+        </script>
+        
+        
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+          
+          <button class="navbar-toggler" data-toggle="collapse" data_target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="collapse_target">
+          <span class="navbar-text">Navbar</span>
+          
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Main Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pf.html">Pink Floyd</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lz.html">Led Zeppelin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ds.html">Dire Straits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiz.html">Quiz</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+                Social media
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                <a class="dropdown-item" href="https://www.facebook.com/">Facebook</a>
+                <a class="dropdown-item" href="https://twitter.com">Twitter</a>
+                <a class="dropdown-item" href="https://www.instagram.com/">Instagram</a>
+              </div>
+            </li>
+          </ul>
+          </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/img2.jpg" alt="First slide">
+              <div class="carousel-caption">
+                <h1 class="display-2">My rock webpage</h1>
+                <h3>Best rock bands</h3>
+                <button type="button" class="btn btn-outline-light btn-lg" onclick="relocate_pf()">Pink Floyd</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/img1.jpeg" alt="Second slide">
+              <div class="carousel-caption">
+                <button type="button" class="btn btn-outline-light btn-lg" onclick="relocate_lz()">Led Zeppelin</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/img3.jpg" alt="Third slide">
+              <div class="carousel-caption">
+                <button type="button" class="btn btn-outline-light btn-lg" onclick="relocate_ds()">Dire Straits</button>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div class="container-fluid">
+        <div class="row jumbotron">
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <h1>Rock music</h1>
+            <p class="lead">a form of popular music that evolved from rock and roll and pop music during the mid and late 1960s. Harsher and often self-consciously more serious than its predecessors, it was initially characterized by musical experimentation and drug-related or anti-establishment lyrics.</p>
+          </div>
+        </div>
+        </div>
+        
+
+        <div class="container-fluid padding">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <h1 class="display-4">Welcome</h1>
+          </div>
+          <hr>
+          <div class="col-12">
+            <p class="lead">Welcome to my simple webpage.</p>
+          </div>
+        </div>
+        </div>
+        
+        <div class="container-fluid padding">
+        <div class="row padding">
+          
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="images/img4.jpg">
+              <div class="card-body">
+                <p clas="card-text">Pink Floyd were an English rock band formed in London in 1965. Gaining an early following as one of the first British psychedelic groups, they were distinguished for their extended compositions, sonic experimentation, philosophical lyrics and elaborate live shows, and became a leading band of the progressive rock genre, cited by some as the greatest progressive rock band of all time. </p>
+                <a href="#" class="btn btn-outline-secondary">More info</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="images/img5.jpg">
+              <div class="card-body">
+                <p clas="card-text">Led Zeppelin were an English rock band formed in London in 1968. The group consisted of vocalist Robert Plant, guitarist Jimmy Page, bassist/keyboardist John Paul Jones, and drummer John Bonham. With a heavy, guitar-driven sound, they are cited as one of the progenitors of hard rock and heavy metal, although their style drew from a variety of influences, including blues and folk music. Led Zeppelin have been credited as significantly impacting the nature of the music industry, particularly in the development of album-oriented rock (AOR) and stadium rock. Many critics consider Led Zeppelin one of the most successful, innovative and influential rock groups in history.</p>
+                <a href="#" class="btn btn-outline-secondary">More info</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="images/img6.jpg">
+              <div class="card-body">
+                <p clas="card-text">Dire Straits were a British rock band formed in London in 1977 by Mark Knopfler (lead vocals and lead guitar), David Knopfler (rhythm guitar and backing vocals), John Illsley (bass guitar and backing vocals), and Pick Withers (drums and percussion). They were active from 1977 to 1988 and again from 1991 to 1995.</p>
+                <a href="#" class="btn btn-outline-secondary">More info</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        </div>
+        
+        <footer>
+          <div class="container-fluid padding">
+          <div class="row text-center">
+            
+            <div class="col-md-4">
+              <hr class="light">
+              <h5>Phone number</h5>
+              <hr class="light">
+              <p>500-500-500</p>
+            </div>
+            
+            <div class="col-md-4">
+              <hr class="light">
+              <h5>E-mail</h5>
+              <hr class="light">
+              <p>emailadress@gmail.com</p>
+            </div>
+            
+            <div class="col-md-4">
+              <hr class="light">
+              <h5>Adress</h5>
+              <hr class="light">
+              <p>Warsaw</p>
+            </div>
+            
+            <div class="col-12">
+              <hr class="light-100">
+              <h6>&copy; copyright</h6>
+            </div>
+            
+          </div>
+          </div>
+        </footer>
+
+
+    </body>
+</html>
