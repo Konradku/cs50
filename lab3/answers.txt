@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: fastest if sorted, slow if reversed
+
+sort2 uses: merge sort
+
+How do you know?: fastest if not sorted, similiar time for each file of the same number of lines
+
+sort3 uses: selection sort
+
+How do you know?: slowest if sorted, similiar time for each file of the same number of lines
